@@ -1,7 +1,53 @@
+/* // No media query necessary for xs breakpoint as it's effectively ` */
+@media(min-width:576px) {
+  /*  */
+}
+
+@media (min-width: 768px) {
+  /*  */
+}
+
+@media (min-width: 992px) {
+  /*  */
+}
+
+@media (min-width: 1200px) {
+  /*  */
+}
+
+@media (min-width: 1400px) {
+  /*  */
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+  /* … */
+}
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+  /* … */
+}
+@media (min-height: 680px), screen and (orientation: portrait) {
+  /* … */
+}
+@media (width <= 30em) {
+  /* … */
+}
+@media (max-width: 30em) {
+  /* … */
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+@media (30em <= width <= 50em) {
+  /* … */
+}
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: .1rem;
 }
 
 body {
@@ -13,8 +59,3 @@ body {
   padding: .75rem;
   justify-content: space-between;
 }
-
-.nav-item{
-  color: brown;
-}
-
