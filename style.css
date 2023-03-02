@@ -3,13 +3,18 @@
 *::after {
   box-sizing: border-box;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.section-of-top-btn{
-margin: 10px;
-display: flex;
-justify-content: flex-end;
-padding: .75rem;
-justify-content: space-between;
+
+.section-of-top-btn {
+  justify-content: flex-end;
+  padding: .75rem;
+  justify-content: space-between;
 }
+
+.nav-item{
+  color: brown;
+}
+
