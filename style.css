@@ -49,7 +49,9 @@
   box-sizing: border-box;
   margin: .1rem;
 }
-
+main{
+  min-height: 100vh;
+}
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -58,4 +60,29 @@ body {
   justify-content: flex-end;
   padding: .75rem;
   justify-content: space-between;
+}
+.carditems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px ;
+}
+.card{
+  margin: 10px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:30px 20px 10px 20px ;
+}
+.about-desc{
+  max-width: 1000px;
+  margin: auto;
+}
+.card-text{
+  width: 170px;
+  height: 90px;
+  overflow: hidden;
 }

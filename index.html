@@ -11,22 +11,40 @@
     <!-- external link of CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- external link of Javascript -->
-    <script src="script.js"></script>
-
     <!-- fonts link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!--  -->
 </head>
 
 <body>
     <!-- TOP BUTTONS -->
-    <div class="section-of-top-btn" class="modal-dialog modal-fullscreen-sm-down" >
-    <div class="navbar navbar-defualt"  class="p-2 bd-highlight">
-            <div class="btn1" class="d-inline p-2 text-info"><i class="fa-solid fa-circle-dollar-to-slot text-warning"></i>Donate</div>
-            <div class="btn2" class="d-inline p-2 text-info"><i class="fa-solid fa-phone text-warning"></i>Support</div>
-        </div>
-        </div>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">Khabri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">News page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Collab</a>
+                </li>
+                
+               
+              
+            </div>
+          </div>
+        
+      </nav>
+      
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-light bg-light">
             <form class="d-flex">
@@ -42,7 +60,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="#">Health</a>
+                            <a class="nav-link text-info" href="/pages/Health.html">Health</a>
                         </li>
                         <li class="nav-item dropdown text-info">
                             <a class="nav-link dropdown-toggle text-info" data-bs-toggle="dropdown" href="#" role="button"
@@ -65,9 +83,68 @@
             </div>
         </div>
     </nav>
+    <!-- Main Section of the page -->
+   
+
+    <main >
+        <h2>News Application </h2>
+
+        <!-- * Card Items -->
+        <div class="carditems">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">News 01 <span id="name"></span></h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">News 02</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">News 03</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">News 04</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, hic.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- *About -->
+        <div>
+            <h2>About Us</h2>
+            <p class="about-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet distinctio, ducimus vitae odio tempore numquam quasi consectetur fugiat totam ullam reiciendis aspernatur ipsam, voluptates asperiores autem possimus nobis repellendus tempora nulla soluta deleniti! Doloribus deserunt, ex nulla impedit, numquam illo ducimus <br>
+                
+                elit obcaecati molestiae repudiandae eveniet adipisci excepturi dolor dolorem quaerat reiciendis, officia voluptatibus expedita? Rerum similique laborum officiis, sit, porro praesentium, culpa eum debitis distinctio quidem obcaecati officia facilis consequatur ullam?<br>
+                
+                Assumenda quae aliquid magnam, sequi iusto consectetur ullam sint error fugit fuga placeat nostrum, distinctio temporibus quis? <br>
+            </p>
+        </div>
+    </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+        
+    <script type="module" src="script.js"></script>
+       
 </body>
 
 </html>
