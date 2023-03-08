@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+ min-height: 100vh;
+ max-width: 100vw;
 }
 
 .section-of-top-btn {
@@ -15,6 +16,15 @@ body {
   padding: .75rem;
   justify-content: space-between;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 80px;
+}
+/* Crads */
 .carditems{
   display: flex;
   justify-content: center;
@@ -23,20 +33,101 @@ body {
   padding: 10px ;
 }
 .card{
-  margin: 10px;
+  margin: 5px;
 }
 h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:30px 20px 10px 20px ;
+  margin:10px 20px 10px 20px ;
 }
 .about-desc{
-  max-width: 1000px;
-  margin: auto;
+ text-align: center;
+ padding: 10px 5px 0;
+
+}
+.card-title{
+  text-align: center;
 }
 .card-text{
-  width: 170px;
+  width: 250px;
   height: 90px;
   overflow: hidden;
+  text-align: center;
 }
+.button{
+  text-align: center;
+}
+
+/* News Feed starting */
+.container{
+  max-width: 1200px;
+}
+.heading-1{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.heading-2{
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.heading-3{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: crimson;
+  margin-bottom: 10px;
+}
+.sub-heading{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+}
+.sub-heading p{
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-right: 10px;
+}
+.sub-heading span{
+  color: #555;
+  font-weight: 300;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+.sub-heading .important-headline{
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* home */
+.home{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2
+  0px;
+}
+.home-img{
+  width: 100%;
+}
+.list{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.list img{
+  width: 200px;
+  height: 150px;
+}
+@media (max-width: 950px){
+  .home{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+}
+}
+/* News Feed ending */
