@@ -20,6 +20,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 .sticky + .content {
   padding-top: 80px;
@@ -106,9 +107,8 @@ padding-bottom: 10px;
 /* home */
 .home{
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2
-  0px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 .home-img{
   width: 100%;
@@ -123,6 +123,10 @@ padding-bottom: 10px;
   width: 200px;
   height: 150px;
 }
+.about{
+  max-width: 900px;
+  margin: auto;
+}
 @media (max-width: 950px){
   .home{
       display: grid;
@@ -130,4 +134,5 @@ padding-bottom: 10px;
       gap: 40px;
 }
 }
+
 /* News Feed ending */

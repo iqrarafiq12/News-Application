@@ -1,0 +1,17 @@
+/* * Yay mai nai backgrounds lagay hai takay tum ko pta lg jay konsa element kesay style krna hai*/
+
+#news{
+    background-color: pink;
+}
+#ul{
+    /* margin: auto; */
+}
+.title{
+    background-color: aqua;
+}
+.desc{
+    background-color: antiquewhite;
+}
+.author{
+    background-color: blue;
+}
