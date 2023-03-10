@@ -25,40 +25,6 @@ body {
 .sticky + .content {
   padding-top: 80px;
 }
-/* Crads */
-.carditems{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 10px ;
-}
-.card{
-  margin: 5px;
-}
-h2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin:10px 20px 10px 20px ;
-}
-.about-desc{
- text-align: center;
- padding: 10px 5px 0;
-
-}
-.card-title{
-  text-align: center;
-}
-.card-text{
-  width: 250px;
-  height: 90px;
-  overflow: hidden;
-  text-align: center;
-}
-.button{
-  text-align: center;
-}
 
 /* News Feed starting */
 .container{
@@ -136,3 +102,18 @@ padding-bottom: 10px;
 }
 
 /* News Feed ending */
+
+/* About Peraghraph */
+.about{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.aboutHeading{
+  font-size: 40px;
+}
+.about-desc{
+  font-size: 15px;
+}
