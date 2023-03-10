@@ -7,7 +7,7 @@ News Api and fake api
 In javaScript file you can see that in the beginning you can see i first use fake api 
 After i use news api you can see both of the api output in the console.
 
-firstly i working the main tag / section of main page and some news or updates are avilible of the main news sections.
+i working the main tag / section of main page and some news or updates are availible of the main news sections.
 
 window scroll navigation bar setting on navbar through the javascript.
 
